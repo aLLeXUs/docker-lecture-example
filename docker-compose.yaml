@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  api:
+    image: "oleksandrstrakhov/docker-example"
+    ports:
+      - "9090:9090"
